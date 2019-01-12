@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/denners777/graphql/issues"
   },
-  "homepage": "https://github.com/denners777/graphql#readme"
+  "homepage": "https://github.com/denners777/graphql#readme",
+  "devDependencies": {
+    "typescript": "2.5.3"
+  }
 }
