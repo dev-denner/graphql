@@ -21,7 +21,7 @@ const typeDefs = `
     }
 
     type Query {
-        allUser: [User!]!
+        allUsers: [User!]!
     }
 `;
 

@@ -10,12 +10,13 @@ class App {
     constructor() {
         this.express = express();
         this.middleware();
-    }
+    };
+    
     private middleware(): void {
         this.express.use('/graphql', graphqlHTTP({
             schema: schema
         }));
-    }
+    };
 }
 
 export default new App().express;
