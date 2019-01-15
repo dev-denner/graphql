@@ -1,3 +1,3 @@
 console.log('hello world');
 
-let a : string = 'Hello er';
+console.log('nodemon');
