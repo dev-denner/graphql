@@ -8,12 +8,11 @@ class App {
         this.express = express();
         this.middleware();
     }
-    ;
     middleware() {
         this.express.use('/graphql', graphqlHTTP({
-            schema: schema_1.default
+            schema: schema_1.default,
+            graphiql: process.env.NODE_ENV === 'development'
         }));
     }
-    ;
 }
 exports.default = new App().express;

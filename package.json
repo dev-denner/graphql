@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "node_modules/.bin/nodemon --delay 5 dist/index",
+    "dev": "set NODE_ENV=development&& nodemon --delay 5 dist/index",
     "gulp": "node_modules/.bin/gulp"
   },
   "repository": {
