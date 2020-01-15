@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/denners777/graphql.git"
+    "url": "git+https://github.com/dev-denner/graphql.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/denners777/graphql/issues"
+    "url": "https://github.com/dev-denner/graphql/issues"
   },
-  "homepage": "https://github.com/denners777/graphql#readme",
+  "homepage": "https://github.com/dev-denner/graphql#readme",
   "devDependencies": {
     "@types/express": "^4.17.2",
     "@types/express-graphql": "^0.9.0",
